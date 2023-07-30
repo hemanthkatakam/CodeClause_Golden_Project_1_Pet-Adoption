@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pet-card {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.pet-card img {
+    max-width: 100%;
+}
+
+.pet-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.pet-breed {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.pet-description {
+    margin-bottom: 10px;
+}
+
+.pet-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
